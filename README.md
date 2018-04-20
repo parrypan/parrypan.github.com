@@ -1,1 +1,1 @@
-[我的博客](http://parrypan.github.com)
+[我的博客](https://parrypan.github.io/)
