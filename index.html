@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
 	<title>测试网站</title>
-	<script type="text/javascript" src="js/echarts.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="echarts.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
 
     <style type="text/css">
     html,body{
@@ -24,7 +24,7 @@
         var myChart = echarts.init(document.getElementById('main'));
 		myChart.showLoading();
 
-$.get('map/json/citys/330100.json', function (geoJson) {
+$.get('330100.json', function (geoJson) {
 
      
 
